@@ -1,0 +1,6 @@
+Time (ms),Resistance (micro-ohms),Contact State
+0,50,Closed
+5,52,Opening
+10,49,Arcing
+15,53,Closing
+20,51,Closed

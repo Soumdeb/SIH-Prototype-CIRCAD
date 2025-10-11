@@ -40,3 +40,13 @@ export const fetchAllResults = async () => {
     throw error;
   }
 };
+
+export const fetchSystemHealth = async () => {
+  const res = await axiosInstance.get("/system_health/");
+  return res.data;
+};
+
+export const fetchForecastForAnalysis = async (analysisId) => {
+  const res = await axiosInstance.get(`/forecast/analysis/${analysisId}/`);
+  return res.data;
+};

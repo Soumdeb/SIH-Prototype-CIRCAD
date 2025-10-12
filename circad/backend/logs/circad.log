@@ -32,3 +32,13 @@
 2025-10-13 01:37:23,636 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
 2025-10-13 01:37:28,952 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py changed, reloading.
 2025-10-13 01:37:30,100 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-13 01:40:08,835 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 161
+2025-10-13 01:40:09,519 [INFO] django.server basehttp:213: "POST /api/analyze/1/ HTTP/1.1" 200 461
+2025-10-13 01:40:15,585 [WARNING] django.request log:253: Not Found: /ws/updates/
+2025-10-13 01:40:15,586 [WARNING] django.server basehttp:213: "GET /ws/updates/ HTTP/1.1" 404 2713
+2025-10-13 01:40:15,598 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463
+2025-10-13 01:40:15,623 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463
+2025-10-13 01:40:19,449 [WARNING] django.request log:253: Not Found: /ws/updates/
+2025-10-13 01:40:19,450 [WARNING] django.server basehttp:213: "GET /ws/updates/ HTTP/1.1" 404 2713
+2025-10-13 01:40:19,465 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463
+2025-10-13 01:40:19,494 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463

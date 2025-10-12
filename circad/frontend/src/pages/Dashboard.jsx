@@ -1,39 +1,69 @@
+// circad/frontend/src/pages/Dashboard.jsx
 import React, { useEffect, useState, useMemo } from "react";
 import { fetchAllResults } from "../api/uploadService";
 import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  CartesianGrid,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-  PieChart,
-  Pie,
-  Cell,
+  LineChart, Line, XAxis, YAxis, Tooltip,
+  CartesianGrid, ResponsiveContainer, BarChart,
+  Bar, PieChart, Pie, Cell,
 } from "recharts";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Dashboard = () => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [connectionStatus, setConnectionStatus] = useState("Disconnected ❌");
 
+  // ---- Helper: Fetch all results ----
+  const loadData = async () => {
+    try {
+      const data = await fetchAllResults();
+      setResults(data);
+    } catch {
+      toast.error("Failed to fetch dashboard data.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // ---- Initialize WebSocket + live updates ----
   useEffect(() => {
-    const loadData = async () => {
-      try {
-        const data = await fetchAllResults();
-        setResults(data);
-      } catch {
-        alert("Failed to fetch dashboard data. Check backend.");
-      } finally {
-        setLoading(false);
+    loadData();
+
+    const ws = new WebSocket("ws://127.0.0.1:8000/ws/updates/");
+
+    ws.onopen = () => {
+      setConnectionStatus("⚡ Real-time connection active");
+      toast.success("Connected to live updates!", { theme: "colored" });
+    };
+
+    ws.onclose = () => {
+      setConnectionStatus("Disconnected ❌");
+      toast.error("Disconnected from live updates!", { theme: "colored" });
+    };
+
+    ws.onmessage = (event) => {
+      const msg = JSON.parse(event.data);
+      if (msg.type === "analysis_update" && msg.data) {
+        const status = msg.data.status;
+        const colorMap = {
+          Healthy: { theme: "colored", style: { background: "#16a34a" } },
+          Warning: { theme: "colored", style: { background: "#eab308" } },
+          Faulty: { theme: "colored", style: { background: "#dc2626" } },
+        };
+
+        toast.info(
+          `✅ ${msg.message} (${status})`,
+          colorMap[status] || { theme: "colored" }
+        );
+        loadData();
       }
     };
-    loadData();
+
+    return () => ws.close();
   }, []);
 
-  // ====== Derived Metrics ======
+  // ===== Metrics Calculations =====
   const totalFiles = results.length;
   const healthyCount = results.filter((r) => r.result_json.status === "Healthy").length;
   const warningCount = results.filter((r) => r.result_json.status === "Warning").length;
@@ -47,7 +77,6 @@ const Dashboard = () => {
     ? ((faultyCount / totalFiles) * 100).toFixed(1)
     : 0;
 
-  // ====== Health Index (0–100) ======
   const healthIndex = useMemo(() => {
     if (results.length === 0) return 0;
     const scoreMap = { Healthy: 2, Warning: 1, Faulty: 0, "High Contact Resistance": 0 };
@@ -58,10 +87,8 @@ const Dashboard = () => {
     return ((totalScore / (results.length * 2)) * 100).toFixed(1);
   }, [results]);
 
-  // ====== Recent Analysis ======
   const lastResult = results[0] || null;
 
-  // ====== Prepare Data for Charts ======
   const trendData = useMemo(() => {
     return results.map((r) => ({
       date: new Date(r.created_at).toLocaleDateString(),
@@ -79,13 +106,19 @@ const Dashboard = () => {
   if (loading)
     return <div className="p-8 text-gray-500">Loading dashboard...</div>;
 
+  // === UI START ===
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 relative p-6">
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
+      <div className="absolute top-4 right-6 text-sm font-semibold text-gray-600">
+        {connectionStatus}
+      </div>
+
       <h2 className="text-3xl font-bold text-slate-700 mb-6">
         CIRCAD Analytics Dashboard
       </h2>
 
-      {/* ==== Health Index Gauge + Summary ==== */}
+      {/* Health Gauge + Last Analysis */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
         <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center justify-center">
           <h3 className="text-xl font-semibold mb-2 text-gray-700">
@@ -140,19 +173,15 @@ const Dashboard = () => {
         )}
       </div>
 
-      {/* ==== Metrics Summary Cards ==== */}
+      {/* Summary Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <MetricCard title="Total Analyses" value={totalFiles} color="bg-cyan-600" />
         <MetricCard title="Healthy Breakers" value={healthyCount} color="bg-green-600" />
         <MetricCard title="Faulty Breakers" value={faultyCount} color="bg-red-600" />
-        <MetricCard
-          title="Fault Percentage"
-          value={`${faultPercentage}%`}
-          color="bg-yellow-500"
-        />
+        <MetricCard title="Fault Percentage" value={`${faultPercentage}%`} color="bg-yellow-500" />
       </div>
 
-      {/* ==== Line Chart: Mean Resistance Trend ==== */}
+      {/* Trend Chart */}
       <div className="bg-white rounded-2xl shadow-md p-6">
         <h3 className="text-xl font-semibold mb-4 text-gray-700">
           Resistance Trend Over Time
@@ -180,7 +209,7 @@ const Dashboard = () => {
         </ResponsiveContainer>
       </div>
 
-      {/* ==== Bar Chart: Status Distribution ==== */}
+      {/* Status Distribution */}
       <div className="bg-white rounded-2xl shadow-md p-6">
         <h3 className="text-xl font-semibold mb-4 text-gray-700">
           Status Distribution
@@ -191,12 +220,7 @@ const Dashboard = () => {
             <XAxis dataKey="name" />
             <YAxis allowDecimals={false} />
             <Tooltip />
-            <Bar
-              dataKey="count"
-              barSize={60}
-              fill="#06b6d4"
-              label={{ position: "top", fill: "#374151" }}
-            >
+            <Bar dataKey="count" barSize={60}>
               <Cell key="Healthy" fill="#16a34a" />
               <Cell key="Warning" fill="#eab308" />
               <Cell key="Faulty" fill="#dc2626" />
@@ -204,63 +228,18 @@ const Dashboard = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-
-      {/* ==== Recent Results Table ==== */}
-      <div className="bg-white rounded-2xl shadow-md p-6">
-        <h3 className="text-xl font-semibold mb-4 text-gray-700">
-          Recent Analyses
-        </h3>
-        <table className="w-full text-sm border-collapse">
-          <thead>
-            <tr className="text-left border-b">
-              <th className="py-2 px-3">File ID</th>
-              <th className="py-2 px-3">Status</th>
-              <th className="py-2 px-3">Mean Resistance</th>
-              <th className="py-2 px-3">Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            {results.slice(0, 10).map((r) => (
-              <tr
-                key={r.id}
-                className="border-b hover:bg-gray-50 transition text-gray-700"
-              >
-                <td className="py-2 px-3 font-medium">#{r.dcrm_file}</td>
-                <td
-                  className={`py-2 px-3 font-semibold ${
-                    r.result_json.status === "Healthy"
-                      ? "text-green-600"
-                      : r.result_json.status === "Warning"
-                      ? "text-yellow-600"
-                      : "text-red-600"
-                  }`}
-                >
-                  {r.result_json.status}
-                </td>
-                <td className="py-2 px-3">{r.result_json.mean_resistance} µΩ</td>
-                <td className="py-2 px-3">
-                  {new Date(r.created_at).toLocaleString()}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 };
 
-// === Reusable Metric Card Component ===
+// ===== Reusable Components =====
 const MetricCard = ({ title, value, color }) => (
-  <div
-    className={`rounded-2xl p-6 text-white shadow-md ${color} transition hover:shadow-lg`}
-  >
+  <div className={`rounded-2xl p-6 text-white shadow-md ${color} transition hover:shadow-lg`}>
     <h4 className="text-sm uppercase tracking-wide opacity-90 mb-1">{title}</h4>
     <p className="text-3xl font-bold">{value}</p>
   </div>
 );
 
-// === Health Gauge Component ===
 const HealthGauge = ({ index }) => {
   const value = Math.min(100, Math.max(0, Number(index)));
   const data = [
@@ -269,9 +248,9 @@ const HealthGauge = ({ index }) => {
   ];
 
   const getColor = () => {
-    if (value > 80) return "#16a34a"; // Green
-    if (value > 50) return "#eab308"; // Yellow
-    return "#dc2626"; // Red
+    if (value > 80) return "#16a34a";
+    if (value > 50) return "#eab308";
+    return "#dc2626";
   };
 
   return (

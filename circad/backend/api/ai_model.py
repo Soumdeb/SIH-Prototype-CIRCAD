@@ -76,12 +76,15 @@ def analyze_dcrm(file_path: str, past_means=None):
         try:
             features = [mean_r, std_r, slope, min_r, max_r]
             label, conf = model_utils.predict_with_confidence(features)
-            if label is not None:
-                predicted_condition = label
-                predicted_confidence = round(float(conf), 3) if conf is not None else None
+            if label and conf is not None:
+                if conf >= 0.6:
+                    predicted_condition = label
+                    predicted_confidence = round(conf, 3)
+                else:
+                    predicted_condition = None
+                    predicted_confidence = round(conf, 3)
         except Exception as e:
             print("Model prediction error:", e)
-            predicted_condition = None
 
         # Forecast
         forecast_next = None

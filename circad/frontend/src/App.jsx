@@ -2,6 +2,8 @@ import { AnalysisProvider } from "./context/AnalysisContext";
 import Upload from "./pages/Upload";
 import Analysis from "./pages/Analysis";
 import Dashboard from "./pages/Dashboard";
+import AdminPanel from "./pages/AdminPanel";
+import ReportsPage from "./pages/Reports";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
               <Route path="/" element={<Upload />} />
               <Route path="/analysis" element={<Analysis />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/admin" element={<AdminPanel />} />
+              <Route path="/reports" element={<ReportsPage />} />
             </Routes>
           </main>
         </div>

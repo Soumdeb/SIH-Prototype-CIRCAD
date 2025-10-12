@@ -1,14 +1,22 @@
-version: "3.9"
+version: "3.8"
 services:
-  backend:
-    build: ./backend
-    command: python manage.py runserver 0.0.0.0:8000
-    ports:
-      - "8000:8000"
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: circad
+      POSTGRES_PASSWORD: circadpass
+      POSTGRES_DB: circad_db
     volumes:
-      - ./backend:/app
-  frontend:
-    build: ./frontend
+      - pgdata:/var/lib/postgresql/data
     ports:
-      - "5173:5173"
-    command: npm run dev
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:

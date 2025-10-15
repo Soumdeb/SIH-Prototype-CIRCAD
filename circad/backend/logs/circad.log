@@ -42,3 +42,1410 @@
 2025-10-13 01:40:19,450 [WARNING] django.server basehttp:213: "GET /ws/updates/ HTTP/1.1" 404 2713
 2025-10-13 01:40:19,465 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463
 2025-10-13 01:40:19,494 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 463
+2025-10-13 21:22:15,999 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-13 21:23:21,258 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 02:31:32,236 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 02:31:35,698 [WARNING] django.request log:253: Not Found: /
+2025-10-14 02:31:35,700 [WARNING] django.server basehttp:213: "GET / HTTP/1.1" 404 2662
+2025-10-14 02:31:36,085 [WARNING] django.request log:253: Not Found: /favicon.ico
+2025-10-14 02:31:36,086 [WARNING] django.server basehttp:213: "GET /favicon.ico HTTP/1.1" 404 2713
+2025-10-14 02:31:57,757 [WARNING] django.request log:253: Not Found: /ws/updates/
+2025-10-14 02:31:57,758 [WARNING] django.server basehttp:213: "GET /ws/updates/ HTTP/1.1" 404 2713
+2025-10-14 02:31:57,781 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 10048
+2025-10-14 02:31:57,788 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 10048
+2025-10-14 02:32:22,279 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 162
+2025-10-14 02:32:22,951 [INFO] django.server basehttp:213: "POST /api/analyze/46/ HTTP/1.1" 200 463
+2025-10-14 02:32:30,313 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 10512
+2025-10-14 02:32:30,320 [WARNING] django.request log:253: Not Found: /ws/updates/
+2025-10-14 02:32:30,321 [WARNING] django.server basehttp:213: "GET /ws/updates/ HTTP/1.1" 404 2713
+2025-10-14 02:32:30,324 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 10512
+2025-10-14 16:39:36,956 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 16:53:28,974 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 16:53:28,975 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 16:54:08,214 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 16:54:08,215 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 17:50:15,653 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-14 17:50:15,655 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 58
+2025-10-14 17:50:15,658 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-14 17:50:15,660 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 58
+2025-10-14 17:50:31,543 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-14 17:50:31,545 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 58
+2025-10-14 17:50:36,048 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-14 17:50:36,049 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 58
+2025-10-14 17:50:36,053 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-14 17:50:36,053 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 58
+2025-10-14 17:50:43,600 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 17:50:43,601 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 17:55:38,947 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\urls.py changed, reloading.
+2025-10-14 17:55:40,600 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 17:55:46,857 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 17:55:46,858 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 17:56:43,784 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 17:57:04,725 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 17:57:04,726 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 17:57:22,483 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 17:57:22,484 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:11:19,490 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 18:11:45,700 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:11:45,701 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:11:53,941 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:11:53,942 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:23:45,662 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:23:45,663 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:23:51,201 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:23:51,202 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:24:18,304 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:24:18,305 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:32:12,904 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\circad_backend\settings.py changed, reloading.
+2025-10-14 18:46:00,841 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 18:46:14,209 [WARNING] django.request log:253: Not Found: /
+2025-10-14 18:46:14,210 [WARNING] django.server basehttp:213: "GET / HTTP/1.1" 404 2662
+2025-10-14 18:46:14,517 [WARNING] django.request log:253: Not Found: /favicon.ico
+2025-10-14 18:46:14,518 [WARNING] django.server basehttp:213: "GET /favicon.ico HTTP/1.1" 404 2713
+2025-10-14 18:46:19,810 [WARNING] django.request log:253: Not Found: /api/
+2025-10-14 18:46:19,811 [WARNING] django.server basehttp:213: "GET /api/ HTTP/1.1" 404 7666
+2025-10-14 18:46:31,407 [INFO] django.server basehttp:213: "GET /admin/ HTTP/1.1" 302 0
+2025-10-14 18:46:31,550 [INFO] django.server basehttp:213: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+2025-10-14 18:46:31,795 [INFO] django.server basehttp:213: "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+2025-10-14 18:46:31,806 [INFO] django.server basehttp:213: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+2025-10-14 18:46:31,816 [INFO] django.server basehttp:213: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+2025-10-14 18:46:31,817 [INFO] django.server basehttp:213: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-10-14 18:46:31,819 [INFO] django.server basehttp:213: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-10-14 18:46:31,823 [INFO] django.server basehttp:213: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-10-14 18:46:31,844 [INFO] django.server basehttp:213: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-10-14 18:46:49,375 [INFO] django.server basehttp:213: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-10-14 18:46:49,413 [INFO] django.server basehttp:213: "GET /admin/ HTTP/1.1" 200 7914
+2025-10-14 18:46:49,475 [INFO] django.server basehttp:213: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2025-10-14 18:46:49,505 [INFO] django.server basehttp:213: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2025-10-14 18:46:49,505 [INFO] django.server basehttp:213: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2025-10-14 18:47:29,301 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\circad_backend\settings.py changed, reloading.
+2025-10-14 18:47:30,464 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 18:53:10,635 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:53:10,636 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 18:53:34,872 [WARNING] django.request log:253: Unauthorized: /api/upload/
+2025-10-14 18:53:34,873 [WARNING] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 401 58
+2025-10-14 19:13:18,884 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\circad_backend\settings.py changed, reloading.
+2025-10-14 19:13:20,079 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 19:38:15,253 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-14 19:40:52,870 [INFO] django.server basehttp:213: "OPTIONS /api/login/ HTTP/1.1" 200 0
+2025-10-14 19:40:53,662 [INFO] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 200 511
+2025-10-14 19:41:15,541 [INFO] django.server basehttp:213: "OPTIONS /api/register/ HTTP/1.1" 200 0
+2025-10-14 19:41:16,333 [INFO] django.server basehttp:213: "POST /api/register/ HTTP/1.1" 201 39
+2025-10-14 19:41:26,805 [INFO] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 200 512
+2025-10-14 19:41:31,865 [WARNING] django.request log:253: Unauthorized: /api/login/
+2025-10-14 19:41:31,866 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 401 40
+2025-10-14 19:41:34,948 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-14 19:41:34,951 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-14 19:41:34,970 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 3701
+2025-10-14 19:41:34,977 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 3701
+2025-10-14 19:41:45,371 [INFO] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 200 512
+2025-10-14 19:50:00,285 [INFO] django.server basehttp:213: "OPTIONS /api/upload/ HTTP/1.1" 200 0
+2025-10-14 19:50:04,547 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (0/20) now.
+2025-10-14 19:50:06,584 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-10-14 19:50:09,622 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-10-14 19:50:12,668 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-10-14 19:50:15,726 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-10-14 19:50:18,773 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-10-14 19:50:21,809 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-10-14 19:50:24,871 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-10-14 19:50:27,897 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-10-14 19:50:30,959 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-10-14 19:50:34,013 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-10-14 19:50:37,050 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-10-14 19:50:40,078 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-10-14 19:50:43,122 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-10-14 19:50:46,159 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-10-14 19:50:49,232 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-10-14 19:50:52,242 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-10-14 19:50:55,287 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-10-14 19:50:58,342 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-10-14 19:51:01,378 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-10-14 19:51:04,423 [CRITICAL] celery.backends.redis redis:132: 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-10-14 19:51:04,685 [ERROR] django.request log:253: Internal Server Error: /api/upload/
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 127, in reconnect_on_error
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 1030, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 860, in execute_command
+    self.connection = self.connection_pool.get_connection()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 929, in send_task
+    self.backend.on_task_call(P, task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 378, in on_task_call
+    self.result_consumer.consume_from(task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 389, in ensure
+    return retry_over_time(
+        fun, self.connection_errors, args, {},
+        partial(self.on_connection_error, max_retries),
+        **retry_policy)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\commands\core.py", line 1994, in mget
+    return self.execute_command("MGET", *args, **options)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django_ratelimit\decorators.py", line 27, in _wrapped
+    return fn(request, *args, **kw)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py", line 40, in upload_dcrm
+    task = analyze_file_task.delay(dcrm.id)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 601, in apply_async
+    return app.send_task(
+           ~~~~~~~~~~~~~^
+        self.name, args, kwargs, task_id=task_id, producer=producer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **options
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 927, in send_task
+    with P.connection._reraise_as_library_errors():
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+2025-10-14 19:51:04,737 [ERROR] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 500 324680
+2025-10-14 19:58:57,386 [INFO] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 200 512
+2025-10-14 19:59:06,866 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (0/20) now.
+2025-10-14 19:59:08,934 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-10-14 19:59:11,979 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-10-14 19:59:15,031 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-10-14 19:59:18,073 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-10-14 19:59:21,136 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-10-14 19:59:24,188 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-10-14 19:59:27,228 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-10-14 19:59:30,284 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-10-14 19:59:33,347 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-10-14 19:59:36,402 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-10-14 19:59:39,424 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-10-14 19:59:42,461 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-10-14 19:59:45,507 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-10-14 19:59:48,565 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-10-14 19:59:51,608 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-10-14 19:59:54,650 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-10-14 19:59:57,698 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-10-14 20:00:00,752 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-10-14 20:00:03,824 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-10-14 20:00:06,881 [CRITICAL] celery.backends.redis redis:132: 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-10-14 20:00:06,931 [ERROR] django.request log:253: Internal Server Error: /api/upload/
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 127, in reconnect_on_error
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 1030, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 860, in execute_command
+    self.connection = self.connection_pool.get_connection()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 929, in send_task
+    self.backend.on_task_call(P, task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 378, in on_task_call
+    self.result_consumer.consume_from(task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 389, in ensure
+    return retry_over_time(
+        fun, self.connection_errors, args, {},
+        partial(self.on_connection_error, max_retries),
+        **retry_policy)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\commands\core.py", line 1994, in mget
+    return self.execute_command("MGET", *args, **options)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django_ratelimit\decorators.py", line 27, in _wrapped
+    return fn(request, *args, **kw)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py", line 40, in upload_dcrm
+    task = analyze_file_task.delay(dcrm.id)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 601, in apply_async
+    return app.send_task(
+           ~~~~~~~~~~~~~^
+        self.name, args, kwargs, task_id=task_id, producer=producer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **options
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 927, in send_task
+    with P.connection._reraise_as_library_errors():
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+2025-10-14 20:00:06,957 [ERROR] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 500 324680
+2025-10-14 20:01:13,754 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (0/20) now.
+2025-10-14 20:01:15,800 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-10-14 20:01:18,857 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-10-14 20:01:21,922 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-10-14 20:01:24,960 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-10-14 20:01:28,025 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-10-14 20:01:31,073 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-10-14 20:01:34,100 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-10-14 20:01:37,138 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-10-14 20:01:40,187 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-10-14 20:01:43,236 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-10-14 20:01:46,283 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-10-14 20:01:49,341 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-10-14 20:01:52,402 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-10-14 20:01:55,437 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-10-14 20:01:58,501 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-10-14 20:02:01,550 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-10-14 20:02:04,620 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-10-14 20:02:07,689 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-10-14 20:02:10,726 [ERROR] celery.backends.redis redis:396: Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-10-14 20:02:13,760 [CRITICAL] celery.backends.redis redis:132: 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-10-14 20:02:13,819 [ERROR] django.request log:253: Internal Server Error: /api/upload/
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 127, in reconnect_on_error
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 1030, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 860, in execute_command
+    self.connection = self.connection_pool.get_connection()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 389, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\retry.py", line 105, in call_with_retry
+    return do()
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 390, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 803, in _connect
+    raise err
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 787, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 929, in send_task
+    self.backend.on_task_call(P, task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 378, in on_task_call
+    self.result_consumer.consume_from(task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 389, in ensure
+    return retry_over_time(
+        fun, self.connection_errors, args, {},
+        partial(self.on_connection_error, max_retries),
+        **retry_policy)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\backends\redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\commands\core.py", line 1994, in mget
+    return self.execute_command("MGET", *args, **options)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django_ratelimit\decorators.py", line 27, in _wrapped
+    return fn(request, *args, **kw)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py", line 40, in upload_dcrm
+    task = analyze_file_task.delay(dcrm.id)
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\task.py", line 601, in apply_async
+    return app.send_task(
+           ~~~~~~~~~~~~~^
+        self.name, args, kwargs, task_id=task_id, producer=producer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **options
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\celery\app\base.py", line 927, in send_task
+    with P.connection._reraise_as_library_errors():
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\venv\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+2025-10-14 20:02:13,845 [ERROR] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 500 325192
+2025-10-14 20:05:51,862 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 162
+2025-10-14 20:05:51,868 [INFO] django.server basehttp:213: "OPTIONS /api/analyze/50/ HTTP/1.1" 200 0
+2025-10-14 20:05:51,888 [INFO] api.ai_model ai_model:69: Loaded file: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\data\raw\uploads\sample_dcrm_faulty_HGUsEe8.csv, columns=['Time (ms)', 'Resistance (micro-ohms)', 'Contact State']
+2025-10-14 20:05:52,572 [INFO] django.server basehttp:213: "POST /api/analyze/50/ HTTP/1.1" 200 690
+2025-10-14 20:06:06,473 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4129
+2025-10-14 20:06:06,485 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4129
+2025-10-14 20:06:21,455 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4129
+2025-10-14 20:06:37,190 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4129
+2025-10-14 20:06:51,456 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4129
+2025-10-14 20:06:57,010 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 160
+2025-10-14 20:06:57,016 [INFO] django.server basehttp:213: "OPTIONS /api/analyze/51/ HTTP/1.1" 200 0
+2025-10-14 20:06:57,033 [INFO] api.ai_model ai_model:69: Loaded file: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\data\raw\uploads\sample_dcrm_data_TWStQxA.csv, columns=['Time (ms)', 'Resistance (micro-ohms)', 'Contact State']
+2025-10-14 20:06:57,050 [INFO] django.server basehttp:213: "POST /api/analyze/51/ HTTP/1.1" 200 686
+2025-10-14 20:07:03,019 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:07:03,026 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:07:18,176 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:07:33,011 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:07:48,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:08:03,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:08:18,189 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:08:33,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:08:51,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:09:51,189 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:10:51,189 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:11:23,701 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:11:26,418 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:11:26,424 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4456
+2025-10-14 20:11:32,998 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 163
+2025-10-14 20:11:33,003 [INFO] django.server basehttp:213: "OPTIONS /api/analyze/52/ HTTP/1.1" 200 0
+2025-10-14 20:11:33,018 [INFO] api.ai_model ai_model:69: Loaded file: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\data\raw\uploads\sample_dcrm_warning_UqSniCN.csv, columns=['Time (ms)', 'Resistance (micro-ohms)', 'Contact State']
+2025-10-14 20:11:33,037 [INFO] django.server basehttp:213: "POST /api/analyze/52/ HTTP/1.1" 200 587
+2025-10-14 20:11:35,366 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:11:35,374 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:11:51,173 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:12:06,176 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:12:21,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:12:36,172 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:12:51,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:13:06,178 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:13:51,173 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:14:51,181 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:15:51,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:16:51,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:17:51,195 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:18:51,197 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:27:26,629 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:27:26,638 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:27:26,730 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=2 HTTP/1.1" 200 0
+2025-10-14 20:27:26,742 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:27:26,752 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:27:26,764 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=3 HTTP/1.1" 200 0
+2025-10-14 20:27:26,776 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2736
+2025-10-14 20:27:26,787 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2736
+2025-10-14 20:27:26,836 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=4 HTTP/1.1" 200 0
+2025-10-14 20:27:26,845 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 1949
+2025-10-14 20:27:26,852 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 1949
+2025-10-14 20:27:42,171 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:27:42,183 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:27:42,194 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2736
+2025-10-14 20:27:42,204 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 1949
+2025-10-14 20:27:57,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:27:57,195 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:27:57,204 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2736
+2025-10-14 20:27:57,213 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 1949
+2025-10-14 20:28:11,624 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 4677
+2025-10-14 20:28:11,634 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:28:11,644 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2736
+2025-10-14 20:28:11,654 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 1949
+2025-10-14 20:42:39,401 [INFO] django.server basehttp:213: "POST /api/upload/ HTTP/1.1" 202 162
+2025-10-14 20:42:39,405 [INFO] django.server basehttp:213: "OPTIONS /api/analyze/53/ HTTP/1.1" 200 0
+2025-10-14 20:42:39,420 [INFO] api.ai_model ai_model:69: Loaded file: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\data\raw\uploads\sample_dcrm_faulty_Si4cy4J.csv, columns=['Time (ms)', 'Resistance (micro-ohms)', 'Contact State']
+2025-10-14 20:42:39,436 [INFO] django.server basehttp:213: "POST /api/analyze/53/ HTTP/1.1" 200 690
+2025-10-14 20:42:47,025 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:42:47,033 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:42:47,037 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:42:47,043 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:42:47,047 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:42:47,054 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:42:47,059 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:42:47,065 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:43:02,007 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:43:02,016 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:43:02,027 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:43:02,040 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:43:17,153 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:43:17,159 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:43:17,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:43:17,214 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:43:17,277 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:43:17,282 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:43:17,288 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:43:17,305 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:21,785 [INFO] django.server basehttp:213: "OPTIONS /api/admin/system_status/ HTTP/1.1" 200 0
+2025-10-14 20:47:21,790 [INFO] django.server basehttp:213: "OPTIONS /api/admin/system_status/ HTTP/1.1" 200 0
+2025-10-14 20:47:21,796 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 20:47:21,797 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 20:47:21,800 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 20:47:21,801 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 20:47:25,048 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:25,055 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:25,064 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:25,072 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:25,076 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:25,082 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:25,090 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:25,095 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:32,389 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 20:47:32,390 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 20:47:32,394 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 20:47:32,395 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 20:47:33,220 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:33,226 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:33,248 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:33,257 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:33,262 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:33,271 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:33,276 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:33,282 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:33,745 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:33,751 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:47:33,768 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:33,777 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:47:33,781 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:33,792 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:47:33,796 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:47:33,801 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:48:48,972 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:48:48,979 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:48:48,989 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:48:48,996 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:48:49,000 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:48:49,007 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:48:49,012 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:48:49,017 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:49:01,371 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:49:01,377 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:49:01,390 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:49:01,397 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:49:01,402 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:49:01,408 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:49:01,415 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:49:01,421 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:54:00,426 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:54:00,434 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:54:00,440 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:54:00,448 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:54:00,452 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:54:00,460 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:54:00,464 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:54:00,470 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:54:16,175 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:54:16,185 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:54:16,194 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:54:16,203 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:54:31,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:54:31,188 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:54:31,196 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:54:31,206 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:54:46,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:54:46,191 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:54:46,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:54:46,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:00,411 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:00,428 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:00,438 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:00,452 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:05,521 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:05,529 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:05,538 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:05,545 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:05,550 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:05,558 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:05,562 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:05,569 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:07,989 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:07,996 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:08,018 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:08,025 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:08,033 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:08,042 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:08,045 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:08,053 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:23,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:23,198 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:23,210 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:23,223 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:38,185 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:38,194 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:38,202 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:38,211 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:55:53,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:55:53,193 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:55:53,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:55:53,208 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:56:08,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:56:08,195 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:56:08,204 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:56:08,212 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:56:23,173 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:56:23,184 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:56:23,194 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:56:23,201 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:56:38,185 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:56:38,195 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:56:38,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:56:38,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:57:51,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:57:51,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:57:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:57:51,214 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:58:51,189 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:58:51,198 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:58:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:58:51,214 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 20:59:51,189 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 20:59:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 20:59:51,212 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 20:59:51,222 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:00:51,182 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:00:51,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:00:51,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:00:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:01:51,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:01:51,195 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:01:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:01:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:02:51,181 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:02:51,191 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:02:51,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:02:51,208 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:03:51,209 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:03:51,247 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:03:51,281 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:03:51,309 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:04:51,178 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:04:51,188 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:04:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:04:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:05:51,176 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:05:51,186 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:05:51,194 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:05:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:06:51,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:06:51,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:06:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:06:51,208 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:07:26,294 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:07:26,310 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:07:26,325 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:07:26,348 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:07:38,181 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:07:38,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:07:38,198 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:07:38,206 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:07:53,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:07:53,193 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:07:53,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:07:53,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:08:08,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:08:08,193 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:08:08,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:08:08,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:08:23,174 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:08:23,184 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:08:23,192 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:08:23,200 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:08:51,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:08:51,195 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:08:51,208 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:08:51,220 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:09:51,178 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:09:51,191 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:09:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:09:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:10:51,176 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:10:51,188 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:10:51,199 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:10:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:11:51,185 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:11:51,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:11:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:11:51,216 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:12:51,185 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:12:51,200 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:12:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:12:51,220 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:13:51,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:13:51,200 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:13:51,211 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:13:51,221 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:14:51,226 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:14:51,258 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:14:51,281 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:14:51,295 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:15:51,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:15:51,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:15:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:15:51,214 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:16:51,190 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:16:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:16:51,233 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:16:51,258 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:17:51,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:17:51,187 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:17:51,195 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:17:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:18:51,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:18:51,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:18:51,199 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:18:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:19:51,174 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:19:51,185 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:19:51,197 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:19:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:19:53,021 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:19:53,043 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:19:53,066 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:19:53,089 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:20:08,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:20:08,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:20:08,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:20:08,208 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:20:23,173 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:20:23,185 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:20:23,198 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:20:23,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:20:38,187 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:20:38,197 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:20:38,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:20:38,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:20:53,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:20:53,194 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:20:53,203 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:20:53,212 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:21:51,181 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:21:51,191 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:21:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:21:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:22:51,187 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:22:51,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:22:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:22:51,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:23:51,186 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:23:51,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:23:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:23:51,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:24:51,179 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:24:51,188 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:24:51,198 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:24:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:25:51,188 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:25:51,198 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:25:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:25:51,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:26:51,182 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:26:51,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:26:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:26:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:27:51,187 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:27:51,198 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:27:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:27:51,217 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:28:51,190 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:28:51,198 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:28:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:28:51,214 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:29:51,184 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:29:51,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:29:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:29:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:30:51,199 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:30:51,219 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:30:51,231 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:30:51,245 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:31:51,191 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:31:51,204 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:31:51,218 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:31:51,238 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:32:51,177 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:32:51,186 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:32:51,195 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:32:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:33:51,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:33:51,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:33:51,199 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:33:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:34:51,182 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:34:51,191 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:34:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:34:51,210 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:35:51,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:35:51,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:35:51,200 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:35:51,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:36:51,187 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:36:51,197 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:36:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:36:51,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:37:51,192 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:37:51,205 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:37:51,217 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:37:51,229 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:38:51,190 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:38:51,212 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:38:51,227 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:38:51,241 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:39:51,180 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:39:51,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:39:51,206 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:39:51,216 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:40:24,108 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:40:24,129 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:40:24,147 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:40:24,157 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:40:37,977 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:40:37,986 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:40:37,995 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:40:38,004 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:40:52,981 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:40:52,989 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:40:52,998 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:40:53,007 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:41:07,970 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:41:07,981 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:41:07,989 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:41:07,998 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:41:22,974 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:41:22,982 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:41:22,991 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:41:22,999 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:41:37,974 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-14 21:41:37,979 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:41:37,989 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:41:37,997 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:41:38,005 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:41:52,980 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:41:52,989 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:41:52,998 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:41:53,006 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:42:07,975 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:42:07,984 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:42:07,993 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:42:08,001 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:42:22,974 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:42:22,983 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:42:22,992 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:42:23,001 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:42:38,178 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:42:38,188 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:42:38,198 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:42:38,206 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:42:53,172 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:42:53,185 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:42:53,194 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:42:53,201 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:43:08,172 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:43:08,181 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:43:08,190 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:43:08,198 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:43:23,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:43:23,192 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:43:23,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:43:23,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:43:51,191 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:43:51,202 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:43:51,213 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:43:51,223 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:44:26,911 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:44:26,943 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:44:26,962 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:44:26,983 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:44:38,185 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:44:38,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:44:38,205 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:44:38,215 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:44:53,182 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:44:53,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:44:53,201 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:44:53,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:45:08,171 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:45:08,181 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:45:08,189 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:45:08,197 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:45:23,179 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:45:23,190 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:45:23,199 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:45:23,209 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:45:51,211 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:45:51,240 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:45:51,262 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:45:51,272 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:46:51,183 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:46:51,193 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:46:51,203 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:46:51,212 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:47:51,181 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:47:51,196 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:47:51,207 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:47:51,219 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:48:51,173 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:48:51,183 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:48:51,191 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:48:51,201 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:49:30,540 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 21:49:30,574 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 21:49:30,591 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 21:49:30,605 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 21:54:48,582 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 21:54:48,583 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 21:54:48,588 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 21:54:48,589 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 21:55:00,151 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 21:55:00,153 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 21:55:00,158 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 21:55:00,159 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 22:17:22,917 [WARNING] django.request log:253: Unauthorized: /api/admin/system_status/
+2025-10-14 22:17:22,918 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 401 172
+2025-10-14 22:17:22,924 [WARNING] django.request log:253: Unauthorized: /api/admin/system_status/
+2025-10-14 22:17:22,925 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 401 172
+2025-10-14 22:17:22,932 [INFO] django.server basehttp:213: "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+2025-10-14 22:17:22,954 [WARNING] django.request log:253: Not Found: /api/token/refresh/
+2025-10-14 22:17:22,958 [WARNING] django.request log:253: Not Found: /api/token/refresh/
+2025-10-14 22:17:22,959 [WARNING] django.server basehttp:213: "POST /api/token/refresh/ HTTP/1.1" 404 7683
+2025-10-14 22:17:22,960 [WARNING] django.server basehttp:213: "POST /api/token/refresh/ HTTP/1.1" 404 7683
+2025-10-14 22:17:26,570 [WARNING] django.request log:253: Unauthorized: /api/admin/system_status/
+2025-10-14 22:17:26,572 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 401 58
+2025-10-14 22:17:26,574 [WARNING] django.request log:253: Unauthorized: /api/admin/system_status/
+2025-10-14 22:17:26,574 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 401 58
+2025-10-14 22:17:38,845 [INFO] django.server basehttp:213: "OPTIONS /api/login/ HTTP/1.1" 200 0
+2025-10-14 22:17:39,599 [INFO] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 200 512
+2025-10-14 23:29:55,113 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:29:55,120 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:29:55,141 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=2 HTTP/1.1" 200 0
+2025-10-14 23:29:55,150 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=2 HTTP/1.1" 200 0
+2025-10-14 23:29:55,156 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:29:55,167 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:29:55,167 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=3 HTTP/1.1" 200 0
+2025-10-14 23:29:55,177 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:29:55,182 [INFO] django.server basehttp:213: "OPTIONS /api/results/?page=4 HTTP/1.1" 200 0
+2025-10-14 23:29:55,184 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:29:55,189 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:29:55,194 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:33:21,018 [INFO] django.server basehttp:213: "OPTIONS /api/admin/system_status/ HTTP/1.1" 200 0
+2025-10-14 23:33:21,022 [INFO] django.server basehttp:213: "OPTIONS /api/admin/system_status/ HTTP/1.1" 200 0
+2025-10-14 23:33:21,029 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 23:33:21,030 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 23:33:21,034 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 23:33:21,035 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 23:33:31,005 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 23:33:31,006 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 23:33:31,011 [WARNING] django.request log:253: Forbidden: /api/admin/system_status/
+2025-10-14 23:33:31,012 [WARNING] django.server basehttp:213: "GET /api/admin/system_status/ HTTP/1.1" 403 63
+2025-10-14 23:50:21,008 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-14 23:50:21,016 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-14 23:50:21,035 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:21,052 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:21,063 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:21,076 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:21,081 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:21,094 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:21,099 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:21,108 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:21,842 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:21,852 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:21,895 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:21,912 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:21,974 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:21,988 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:21,996 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:22,009 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:24,255 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:24,264 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:24,271 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:24,280 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:24,285 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:24,291 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:24,296 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:24,304 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:33,729 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:33,737 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:33,745 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:33,752 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:33,756 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:33,763 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:33,767 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:33,772 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:50:48,707 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:50:48,717 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:50:48,727 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:50:48,737 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-14 23:51:03,718 [INFO] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 200 5105
+2025-10-14 23:51:03,726 [INFO] django.server basehttp:213: "GET /api/results/?page=2 HTTP/1.1" 200 3550
+2025-10-14 23:51:03,734 [INFO] django.server basehttp:213: "GET /api/results/?page=3 HTTP/1.1" 200 2824
+2025-10-14 23:51:03,742 [INFO] django.server basehttp:213: "GET /api/results/?page=4 HTTP/1.1" 200 2124
+2025-10-15 00:32:05,826 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:05,827 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:05,832 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:05,833 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:05,861 [INFO] django.server basehttp:213: "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+2025-10-15 00:32:05,863 [INFO] django.server basehttp:213: "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+2025-10-15 00:32:05,876 [WARNING] django.request log:253: Not Found: /api/token/refresh/
+2025-10-15 00:32:05,881 [WARNING] django.request log:253: Not Found: /api/token/refresh/
+2025-10-15 00:32:05,882 [WARNING] django.server basehttp:213: "POST /api/token/refresh/ HTTP/1.1" 404 7683
+2025-10-15 00:32:05,883 [WARNING] django.server basehttp:213: "POST /api/token/refresh/ HTTP/1.1" 404 7683
+2025-10-15 00:32:17,661 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:17,662 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:17,664 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:17,665 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:19,538 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:19,538 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:19,542 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:19,543 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:21,334 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:21,335 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:21,341 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:21,342 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:22,797 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:22,798 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:22,804 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:22,805 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:23,740 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:23,743 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:23,749 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:23,750 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:26,432 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:26,433 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:26,439 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:26,439 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:28,163 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:28,164 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:28,170 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:28,170 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:29,338 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:29,339 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:32:29,345 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 00:32:29,346 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 00:35:40,900 [INFO] django.server basehttp:213: "OPTIONS /auth/login/ HTTP/1.1" 200 0
+2025-10-15 00:41:44,092 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 08:34:39,236 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 08:34:39,240 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 08:34:39,292 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 08:34:39,293 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 08:34:39,295 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 08:34:39,296 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 12:34:11,742 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 12:34:11,744 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 12:34:11,754 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 12:34:11,755 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 12:34:11,758 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 12:34:11,759 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 12:34:23,941 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 12:34:23,942 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 12:34:23,945 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 12:34:23,946 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:21,362 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:21,363 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:21,366 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:21,367 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:23,045 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:23,046 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:23,049 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:23,050 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:24,659 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:24,660 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:24,663 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:24,665 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:25,529 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:25,530 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:25,533 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:25,534 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:27,679 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:27,680 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:27,684 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:27,685 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:28,737 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:28,739 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:28,746 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:28,748 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:29,772 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:29,772 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:44:29,776 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:44:29,777 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:53:15,940 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:53:15,941 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:53:15,944 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:53:15,945 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:53:17,327 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:53:17,328 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 13:53:17,331 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 13:53:17,332 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:11:51,312 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 15:13:05,942 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 15:13:05,945 [INFO] django.server basehttp:213: "OPTIONS /api/results/ HTTP/1.1" 200 0
+2025-10-15 15:13:05,973 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:13:05,973 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:13:05,975 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:13:05,976 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:13:10,272 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:13:10,273 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:13:10,278 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:13:10,279 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:41:23,498 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:41:23,500 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 15:41:23,501 [WARNING] django.request log:253: Unauthorized: /api/results/
+2025-10-15 15:41:23,502 [WARNING] django.server basehttp:213: "GET /api/results/ HTTP/1.1" 401 172
+2025-10-15 16:32:19,544 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\urls.py changed, reloading.
+2025-10-15 16:32:22,151 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 16:32:43,651 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\urls.py changed, reloading.
+2025-10-15 16:32:44,904 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 16:34:10,825 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py changed, reloading.
+2025-10-15 16:34:12,098 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 16:34:56,801 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py changed, reloading.
+2025-10-15 16:34:58,069 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 16:35:02,457 [INFO] django.utils.autoreload autoreload:265: C:\Users\Mr\Documents\SIH-Prototype-CIRCAD\circad\backend\api\views.py changed, reloading.
+2025-10-15 16:35:03,768 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader
+2025-10-15 16:38:50,877 [INFO] django.server basehttp:213: "OPTIONS /api/login/ HTTP/1.1" 200 0
+2025-10-15 16:38:50,905 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:38:50,906 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:38:59,054 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:38:59,055 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:38:59,767 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:38:59,768 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:38:59,917 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:38:59,917 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:39:03,844 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:39:03,844 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:39:04,636 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:39:04,637 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:39:17,458 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:39:17,459 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:39:43,645 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:39:43,646 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:39:46,164 [WARNING] django.request log:253: Not Found: /api/login/
+2025-10-15 16:39:46,165 [WARNING] django.server basehttp:213: "POST /api/login/ HTTP/1.1" 404 7944
+2025-10-15 16:56:31,512 [INFO] django.utils.autoreload autoreload:667: Watching for file changes with StatReloader

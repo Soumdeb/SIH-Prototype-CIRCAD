@@ -5,10 +5,23 @@
   text-align: center;
 }
 
-body {
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  background-color: transparent;
   background-color: #f9fafb;
   color: #111827;
 }
+
+main {
+  overflow: hidden;
+}
+
+* {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
 h2 {
   color: #0f172a;
 }

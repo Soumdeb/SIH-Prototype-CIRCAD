@@ -1,0 +1,14 @@
+/* Make sure this file is imported in App.jsx or index.css */
+html, body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  overflow: hidden;
+}
+
+.panel-glow {
+  box-shadow: 0 0 25px rgba(2, 208, 208, 0.15);
+}

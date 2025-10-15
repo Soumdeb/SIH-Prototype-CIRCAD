@@ -1,5 +1,5 @@
-import React from "react";
-import { useAnalysis } from "../context/AnalysisContext";
+import React, { useEffect, useState } from "react";
+import { useSafeAnalysis } from "../hooks/useSafeAnalysis";
 import {
   LineChart,
   Line,
@@ -12,16 +12,40 @@ import {
 import jsPDF from "jspdf";
 
 export default function Analysis() {
-  const { analysisData } = useAnalysis();
+  const { analysisData } = useSafeAnalysis();
+  const [dataReady, setDataReady] = useState(null);
+  const username = localStorage.getItem("username");
 
-  if (!analysisData)
+  // ✅ Sync context with localStorage fallback
+  useEffect(() => {
+    if (!analysisData) {
+      const cached = localStorage.getItem("lastAnalysis");
+      if (cached) setDataReady(JSON.parse(cached));
+    } else {
+      setDataReady(analysisData);
+      localStorage.setItem("lastAnalysis", JSON.stringify(analysisData));
+    }
+  }, [analysisData]);
+
+  // ✅ Fallback UI if no data found
+  if (!dataReady || !dataReady.result_json) {
     return (
-      <div className="text-gray-500 p-8">
-        No analysis data found. Upload a file first.
+      <div className="flex flex-col items-center justify-center h-full text-gray-400 text-center">
+        <p className="mb-4">
+          No analysis data found. Please upload a file first.
+        </p>
+        <button
+          onClick={() => window.dispatchEvent(new Event("openUpload"))}
+          className="px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
+        >
+          Open Upload Panel
+        </button>
       </div>
     );
+  }
 
-  const { result_json, created_at, id } = analysisData;
+  // ✅ Destructure analysis data safely
+  const { result_json, created_at, id } = dataReady;
   const {
     status,
     mean_resistance,
@@ -34,206 +58,103 @@ export default function Analysis() {
     data_points = [],
   } = result_json;
 
-  // ======== Chart data construction with forecast ========
-  const data = data_points.map((p) => ({
-    time: p.time,
+  // ✅ Prepare data for chart
+  const data = data_points.map((p, i) => ({
+    time: p.time || `T${i + 1}`,
     resistance: p.resistance,
   }));
 
-  if (forecast_next_mean !== null && forecast_next_mean !== undefined) {
-    const lastTime = data.length ? data[data.length - 1].time : 0;
-    const delta =
-      data.length > 1
-        ? data[data.length - 1].time - data[data.length - 2].time
-        : 1;
-    data.push({
-      time: lastTime + delta,
-      resistance: null, // break actual line
-      forecast: forecast_next_mean,
-    });
-  }
-
-  // ======== Color maps ========
+  // ✅ Status-based color mapping
   const colorMap = {
     Healthy: "#16a34a",
     Warning: "#eab308",
     Faulty: "#dc2626",
+    "High Contact Resistance": "#dc2626",
   };
-  const strokeColor = colorMap[status] || "#2563eb";
+  const strokeColor = colorMap[status] || "#06b6d4";
 
-  const statusColor =
-    status === "Healthy"
-      ? "bg-green-100 text-green-700 border-green-300"
-      : status === "Warning"
-      ? "bg-yellow-100 text-yellow-700 border-yellow-300"
-      : "bg-red-100 text-red-700 border-red-300";
-
-  // ======== Report Downloads ========
-  const handleDownloadPDF = () => {
+  // ✅ Generate and download PDF
+  const handlePDF = () => {
     const doc = new jsPDF();
     doc.setFontSize(18);
     doc.text("CIRCAD DCRM Analysis Report", 14, 20);
     doc.setFontSize(12);
-
     doc.text(`Status: ${status}`, 14, 35);
     doc.text(`Mean Resistance: ${mean_resistance} µΩ`, 14, 45);
     doc.text(`Std. Deviation: ${std_dev} µΩ`, 14, 55);
-    doc.text(`Min Resistance: ${min_resistance} µΩ`, 14, 65);
-    doc.text(`Max Resistance: ${max_resistance} µΩ`, 14, 75);
+    doc.text(`Range: ${min_resistance}–${max_resistance} µΩ`, 14, 65);
 
-    if (predicted_condition)
+    if (predicted_condition) {
       doc.text(
-        `Model Prediction: ${predicted_condition} ${
-          predicted_confidence
-            ? `(${Math.round(predicted_confidence * 100)}%)`
-            : ""
-        }`,
+        `Prediction: ${predicted_condition} (${Math.round(
+          predicted_confidence * 100
+        )}%)`,
         14,
-        85
+        75
       );
+    }
 
-    if (forecast_next_mean)
-      doc.text(`Forecast Next Mean: ${forecast_next_mean} µΩ`, 14, 95);
+    if (forecast_next_mean) {
+      doc.text(`Forecast: ${forecast_next_mean} µΩ`, 14, 85);
+    }
 
-    doc.text(
-      `Created At: ${new Date(created_at).toLocaleString()}`,
-      14,
-      110
-    );
-
+    doc.text(`Generated: ${new Date(created_at).toLocaleString()}`, 14, 95);
     doc.save(`CIRCAD_Report_${id}.pdf`);
   };
 
-  const handleDownloadCSV = () => {
-    const csvContent = [
-      ["Time (ms)", "Resistance (µΩ)"],
-      ...data_points.map((p) => [p.time, p.resistance]),
-    ]
-      .map((row) => row.join(","))
-      .join("\n");
-
-    const blob = new Blob([csvContent], {
-      type: "text/csv;charset=utf-8;",
-    });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.setAttribute("download", `CIRCAD_Data_${id}.csv`);
-    link.click();
-  };
-
-  // ======== UI ========
+  // ✅ Main UI
   return (
-    <div className="space-y-8">
-      <h2 className="text-2xl font-bold text-slate-700">
-        DCRM Analysis Report
-      </h2>
-
-      {/* ===== Status Card ===== */}
-      <div
-        className={`border ${statusColor} p-6 rounded-2xl shadow-sm space-y-1`}
-      >
-        <h3 className="text-xl font-semibold">
-          Status: <span>{status}</span>
-        </h3>
-        <p className="text-sm text-gray-600">
-          Created: {new Date(created_at).toLocaleString()}
-        </p>
-        <p className="text-lg">
-          Mean Resistance: <strong>{mean_resistance} µΩ</strong>
-        </p>
-        <p className="text-sm text-gray-600">
-          Std Dev: {std_dev} µΩ | Range: {min_resistance}–{max_resistance} µΩ
-        </p>
-
-        {predicted_condition && (
-          <p className="pt-1">
-            <strong>Model Prediction:</strong>{" "}
-            <span
-              className="inline-block px-2 py-0.5 rounded-md border text-sm"
-              style={{
-                borderColor: strokeColor,
-                color: strokeColor,
-                backgroundColor: `${strokeColor}15`,
-              }}
-            >
-              {predicted_condition}
-              {predicted_confidence
-                ? ` (${Math.round(predicted_confidence * 100)}%)`
-                : ""}
-            </span>
-          </p>
-        )}
-
-        {forecast_next_mean !== null && (
-          <p className="pt-1">
-            <strong>Forecast (next mean):</strong> {forecast_next_mean} µΩ
-          </p>
-        )}
+    <div className="space-y-8 h-full overflow-y-auto">
+      <div className="flex justify-between items-center">
+        <h2 className="text-2xl font-bold text-cyan-400">
+          DCRM Analysis ({username})
+        </h2>
+        <button
+          onClick={() => window.dispatchEvent(new Event("openUpload"))}
+          className="bg-cyan-600 text-white px-4 py-2 rounded-lg hover:bg-cyan-700 transition"
+        >
+          ← Back to Upload
+        </button>
       </div>
 
-      {/* ===== Chart ===== */}
-      <div className="bg-white rounded-2xl shadow p-4">
-        <h4 className="font-semibold mb-4 text-gray-700">
-          Resistance vs Time
-        </h4>
-        <ResponsiveContainer width="100%" height={400}>
+      <div className="bg-slate-800/70 border border-slate-700 rounded-2xl shadow-lg p-6">
+        <div className="flex justify-between text-gray-300">
+          <span>Status: {status}</span>
+          <span>
+            Mean Resistance: <strong>{mean_resistance} µΩ</strong>
+          </span>
+        </div>
+
+        <ResponsiveContainer width="100%" height={350} className="mt-6">
           <LineChart data={data}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis
-              dataKey="time"
-              label={{
-                value: "Time (ms)",
-                position: "insideBottomRight",
-                offset: -5,
+            <CartesianGrid strokeDasharray="3 3" stroke="#47556944" />
+            <XAxis dataKey="time" stroke="#94a3b8" />
+            <YAxis stroke="#94a3b8" />
+            <Tooltip
+              contentStyle={{
+                backgroundColor: "#1e293b",
+                color: "#f8fafc",
+                borderRadius: "8px",
               }}
             />
-            <YAxis
-              label={{
-                value: "Resistance (µΩ)",
-                angle: -90,
-                position: "insideLeft",
-              }}
-            />
-            <Tooltip />
-            {/* actual line */}
             <Line
               type="monotone"
               dataKey="resistance"
               stroke={strokeColor}
               strokeWidth={2}
               dot={false}
-              connectNulls={false}
-            />
-            {/* dotted forecast line */}
-            <Line
-              type="monotone"
-              dataKey="forecast"
-              stroke={strokeColor}
-              strokeWidth={2}
-              strokeDasharray="5 5"
-              dot={false}
-              connectNulls={false}
             />
           </LineChart>
         </ResponsiveContainer>
-      </div>
 
-      {/* ===== Buttons ===== */}
-      <div className="flex flex-wrap gap-4">
-        <button
-          onClick={handleDownloadPDF}
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
-        >
-          Download PDF Report
-        </button>
-
-        <button
-          onClick={handleDownloadCSV}
-          className="px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition"
-        >
-          Export CSV
-        </button>
+        <div className="text-center mt-6">
+          <button
+            onClick={handlePDF}
+            className="px-5 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-700 transition"
+          >
+            Download PDF Report
+          </button>
+        </div>
       </div>
     </div>
   );

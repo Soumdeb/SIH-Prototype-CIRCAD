@@ -1,6 +1,6 @@
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework import viewsets, status
-from rest_framework.decorators import api_view, parser_classes
+from rest_framework.decorators import api_view, parser_classes, permission_classes, authentication_classes
 from rest_framework.response import Response
 from django.core.files.storage import default_storage
 from .models import DCRMFile, AnalysisResult
@@ -12,14 +12,44 @@ from django.shortcuts import get_object_or_404
 from django_ratelimit.decorators import ratelimit
 from .tasks import analyze_file_task
 from celery.result import AsyncResult
+from django.core.mail import send_mail
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
+from rest_framework.pagination import PageNumberPagination
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+from django.contrib.auth.models import User
+
+@api_view(['POST'])
+def register_user(request):
+    username = request.data.get('username')
+    password = request.data.get('password')
+
+    if not username or not password:
+        return Response({'error': 'Username and password required'}, status=status.HTTP_400_BAD_REQUEST)
+
+    if User.objects.filter(username=username).exists():
+        return Response({'error': 'Username already exists'}, status=status.HTTP_400_BAD_REQUEST)
+
+    User.objects.create_user(username=username, password=password)
+    return Response({'message': 'User registered successfully'}, status=status.HTTP_201_CREATED)
+
+
+@api_view(['POST'])
+def forgot_password(request):
+    email = request.data.get('email')
+    if not email:
+        return Response({'error': 'Email is required'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    # Mocked for now: later you can send a real email with a reset link.
+    return Response({'message': 'Password reset link sent successfully'}, status=status.HTTP_200_OK)
 
 @ratelimit(key='ip', rate='10/m', block=True)
 @api_view(["POST"])
-@csrf_exempt
 @parser_classes([MultiPartParser, FormParser])
+@authentication_classes([JWTAuthentication])
+@permission_classes([IsAuthenticated])
 def upload_dcrm(request):
     file_obj = request.FILES.get("file")
     if not file_obj:
@@ -74,12 +104,19 @@ def analyze_dcrm_file(request, file_id):
     except Exception as e:
         return Response({"error": str(e)}, status=500)
 
+class ResultPagination(PageNumberPagination):
+    page_size = 10
+
 @api_view(["GET"])
-@csrf_exempt
 def list_results(request):
-    results = AnalysisResult.objects.all().order_by("-created_at")
+    status_filter = request.query_params.get("status")
+    queryset = AnalysisResult.objects.all().order_by("-created_at")
+    if status_filter:
+        queryset = queryset.filter(result_json__status=status_filter)
+    paginator = ResultPagination()
+    results = paginator.paginate_queryset(queryset, request)
     serializer = AnalysisResultSerializer(results, many=True)
-    return Response(serializer.data)
+    return paginator.get_paginated_response(serializer.data)
 
 @api_view(["GET"])
 def system_health_index(request):

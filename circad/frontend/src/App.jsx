@@ -1,41 +1,77 @@
-import { AnalysisProvider } from "./context/AnalysisContext";
+// src/App.jsx
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext";
+import { AuthProvider, useAuth } from "./context/AuthContext";
+import { Toaster } from "react-hot-toast";
+import { AnimatePresence } from "framer-motion";
+
+import AppShell from "./layouts/AppShell";
+import Home from "./pages/Home";
 import Upload from "./pages/Upload";
 import Analysis from "./pages/Analysis";
 import Dashboard from "./pages/Dashboard";
-import AdminPanel from "./pages/AdminPanel";
 import ReportsPage from "./pages/Reports";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import ForgotPassword from "./pages/ForgotPassword";
+import { AnalysisProvider } from "./context/AnalysisContext";
 
-function App() {
+function AppContent() {
+  const { isAuthenticated } = useAuth();
+
   return (
-    <AnalysisProvider>
-      <BrowserRouter>
-        <div className="min-h-screen flex bg-slate-50 text-gray-800">
-          {/* Sidebar */}
-          <aside className="w-64 bg-white shadow-md p-6 flex flex-col">
-            <h1 className="text-2xl font-bold mb-6 text-cyan-700">CIRCAD</h1>
-            <nav className="flex flex-col gap-3">
-              <Link to="/" className="hover:text-cyan-600 font-medium">Upload</Link>
-              <Link to="/analysis" className="hover:text-cyan-600 font-medium">Analysis</Link>
-              <Link to="/dashboard" className="hover:text-cyan-600 font-medium">Dashboard</Link>
-            </nav>
-            <footer className="mt-auto text-xs text-gray-400">© 2025 CIRCAD</footer>
-          </aside>
+    <>
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          duration: 2600,
+          style: {
+            background: "rgba(15,23,42,0.92)",
+            color: "#e6eef5",
+            borderRadius: 10,
+            border: "1px solid rgba(6,182,212,0.16)",
+            fontSize: "0.95rem",
+            boxShadow: "0 6px 30px rgba(2,6,23,0.5)",
+            backdropFilter: "blur(6px)",
+          },
+        }}
+      />
 
-          {/* Main Content */}
-          <main className="flex-1 p-8 overflow-y-auto">
-            <Routes>
-              <Route path="/" element={<Upload />} />
-              <Route path="/analysis" element={<Analysis />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/admin" element={<AdminPanel />} />
-              <Route path="/reports" element={<ReportsPage />} />
-            </Routes>
-          </main>
-        </div>
-      </BrowserRouter>
-    </AnalysisProvider>
+      <AnimatePresence mode="wait">
+        {!isAuthenticated ? (
+          <Routes>
+            <Route path="*" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+          </Routes>
+        ) : (
+          <Routes>
+            <Route path="/" element={<AppShell />}>
+              <Route index element={<Home />} />
+              <Route path="upload" element={<Upload />} />
+              <Route path="analysis" element={<Analysis />} />
+              <Route path="dashboard" element={<Dashboard />} />
+              <Route path="reports" element={<ReportsPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Route>
+          </Routes>
+        )}
+      </AnimatePresence>
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <ThemeProvider>
+      <AuthProvider>
+        <AnalysisProvider>
+          <BrowserRouter>
+            <AppContent />
+          </BrowserRouter>
+        </AnalysisProvider>
+      </AuthProvider>
+    </ThemeProvider>
+  );
+}

@@ -35,6 +35,9 @@ CIRCAD offers an **AI-based diagnostic system** that automatically:
 - Predicts breaker condition (Healthy / Warning / Faulty).
 - Generates a professional, downloadable **PDF report**.
 
+The diagram below illustrates the end-to-end workflow.
+![Tech 1](https://github.com/user-attachments/assets/6d6eb86e-6ff0-4603-8ed7-c493de6918c4)
+
 Through its intuitive web dashboard, CIRCAD delivers interactive charts, summary statistics, and smart analytics for engineers and maintenance teams.
 
 ---
